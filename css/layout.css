@@ -225,6 +225,12 @@ input[type="number"]::-webkit-outer-spin-button {
   background-color: rgba(98, 34, 204, 0.75);
 }
 
+.section-1 .camp-btn:hover {
+  background-color: rgb(98, 34, 204, 0.1);
+  border: #fff 1px solid;
+  color: #fff;
+}
+
 .section-1 .camp-btn,
 .form-btn {
   width: 100%;
