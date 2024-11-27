@@ -1,0 +1,934 @@
+<!DOCTYPE html>
+<html lang="nl">
+  <head>
+    <!-- Basic Page Needs -->
+    <meta charset="utf-8" />
+    <title>Intereno</title>
+    <meta property="og:title" content="" />
+    <meta property="og:url" content="" />
+    <meta property="og:image" content="" />
+    <meta property="og:description" content="" />
+
+    <!-- CSS -->
+    <link
+      rel="stylesheet"
+      href="http://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="general-bin/dedicated2018/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="general-bin/dedicated2018/css/jquery.FlowupLabels.css"
+      type="text/css"
+    />
+    <link rel="stylesheet" href="general-bin/dedicated2018/css/dedicated.css" />
+    <link rel="stylesheet" href="css/layout.css?v=1724152202" />
+
+    <!-- Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,900"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Viewport -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Scripts -->
+    <script
+      type="text/javascript"
+      src="general-bin/dedicated2018/js/jquery-1.12.2.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="general-bin/dedicated2018/js/bootstrap.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="general-bin/dedicated2018/js/jquery.FlowupLabels.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="general-bin/dedicated2018/js/bootstrapvalidator.min.js"
+    ></script>
+
+    <script
+      type="text/javascript"
+      src="general-bin/dedicated2018/includes/globalbase.js"
+    ></script>
+    <script>
+      var vraag1 = "Welke vorm heeft uw huidige keuken?";
+      var vraag2 = "Wilt u ook keukenapparatuur vervangen?";
+      var vraag3 = "Wilt u het keukenblad vervangen?";
+      var vraag4 = "Wanneer wilt u de renovatie laten doen?";
+      var vraag5 = "Heeft u een koop- of huurhuis?";
+    </script>
+    <script type="text/javascript" src="js/base.js?v=1718613774"></script>
+    <script type="text/javascript" src="js/campagne.js?v=1724152202"></script>
+  </head>
+
+  <body id="body">
+    <div class="header">
+      <div class="container">
+        <div class="row row-mar-10">
+          <div class="col-sm-12 col-pad-10">
+            <div class="header-flex">
+              <div class="logo">
+               Netbezig
+              </div>
+              <div>
+                <img
+                  src="img/trustpilot-beoordeling.png"
+                  class="img-responsive right"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="pagina-1">
+      <div class="section-1">
+        <div class="video-holder">
+          <video autoplay loop muted id="bgvid">
+            <source src="./video/background.mp4" type="video/mp4" />
+          </video>
+        </div>
+
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-5 col-sm-6">
+              <div id="mob-video">
+                <div class="embed-responsive embed-responsive-16by9">
+                  <video controls poster="img/videostill.png">
+                    <source src="./video/background.mp4" type="video/mp4" />
+                  </video>
+                </div>
+              </div>
+              <div class="bol visible-xs">
+                <div>
+                  EEN VERNIEUWDE KEUKEN IN <span class="inline">24 UUR</span>
+                </div>
+              </div>
+              <div class="content-holder">
+                <h1 class="text-extra-bold text-uppercase wit">
+                  Wat kost een keukenrenovatie binnen
+                  <span class="nobr">1 dag?</span>
+                </h1>
+
+                <h4 class="text-400 wit">
+                  Een keuken renoveren in één dag? Dat kan bij Intereno. Laat u
+                  verrassen door het uitgebreide keukenrenovatie programma van
+                  Intereno, dé landelijke specialist in keukenrenovatie. Onze
+                  vakkundige monteurs veranderen uw huidige keuken in een keuken
+                  van deze tijd.
+                  <br /><br />
+                  Wil u weten wat een keukenrenovatie van uw keuken gaat kosten?
+                </h4>
+
+                <button
+                  class="def-btn camp-btn info-btn text-uppercase mar-bot-15"
+                >
+                  Gratis prijsindicatie
+                  <svg
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M1.875 12.0003C1.875 11.8014 1.95402 11.6106 2.09467 11.4699C2.23532 11.3293 2.42609 11.2503 2.625 11.2503H18.5425L12.349 5.16027C12.2071 5.02076 12.1264 4.83061 12.1248 4.63163C12.1231 4.43266 12.2005 4.24116 12.34 4.09927C12.4795 3.95738 12.6697 3.87671 12.8686 3.87503C13.0676 3.87334 13.2591 3.95076 13.401 4.09027L20.8995 11.4643L20.904 11.4688L20.9095 11.4743C20.9796 11.5455 21.0347 11.63 21.0717 11.7229C21.1086 11.8157 21.1267 11.915 21.1247 12.0149C21.1228 12.1149 21.1009 12.2134 21.0603 12.3047C21.0197 12.396 20.9613 12.4783 20.8885 12.5468L13.401 19.9103C13.3308 19.9793 13.2476 20.0339 13.1563 20.0709C13.065 20.1078 12.9673 20.1264 12.8688 20.1256C12.7703 20.1248 12.6729 20.1046 12.5822 20.0661C12.4916 20.0277 12.4093 19.9717 12.3403 19.9015C12.2712 19.8313 12.2166 19.7482 12.1797 19.6568C12.1427 19.5655 12.1241 19.4678 12.1249 19.3693C12.1257 19.2708 12.146 19.1735 12.1844 19.0828C12.2228 18.9921 12.2788 18.9098 12.349 18.8408L18.5425 12.7503H2.625C2.42609 12.7503 2.23532 12.6712 2.09467 12.5306C1.95402 12.3899 1.875 12.1992 1.875 12.0003Z"
+                      fill="white"
+                    />
+                  </svg>
+                </button>
+              </div>
+            </div>
+            <div class="col-lg-7 col-sm-6">
+              <div class="bol hidden-xs">
+                <div>
+                  EEN VERNIEUWDE KEUKEN IN <span class="inline">24 UUR</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="section-2">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12">
+              <!--
+                    <div class="quooker visible-xs">
+                        <img src="img/quooker.png" class="img-responsive">
+                    </div>
+-->
+              <div class="flex">
+                <div>
+                  <h2 class="text-center">
+                    <i class="fa fa-lg fa-thumbs-up purple"></i> 87%
+                  </h2>
+                  <p class="text-center">Beoordeelt ons uitstekend</p>
+                </div>
+
+                <div>
+                  <h2 class="text-center">
+                    <i class="fa fa-lg fa-home purple"></i> 10136
+                  </h2>
+                  <p class="text-center">Keukenrenovaties uitgevoerd</p>
+                </div>
+
+                <div>
+                  <h2 class="text-center">
+                    <i class="fa fa-group purple"></i> 15.500+
+                  </h2>
+                  <p class="text-center">Tevreden klanten</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="section-3">
+        <div class="container">
+          <div class="row row-flex">
+            <div class="col-sm-6">
+              <div
+                id="imgSlider"
+                class="carousel slide"
+                data-ride="carousel"
+                data-interval="4500"
+              >
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                  <li
+                    data-target="#imgSlider"
+                    data-slide-to="0"
+                    class="active"
+                  ></li>
+                  <li data-target="#imgSlider" data-slide-to="1"></li>
+                  <li data-target="#imgSlider" data-slide-to="2"></li>
+                </ol>
+                <!-- Slides -->
+                <div class="carousel-inner">
+                  <div class="item active">
+                    <img src="img/slide1.png" class="img-responsive" />
+                  </div>
+                  <div class="item">
+                    <img src="img/slide2.png" class="img-responsive" />
+                  </div>
+                  <div class="item">
+                    <img src="img/slide3.png" class="img-responsive" />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-5 col-sm-offset-1 col-center">
+              <h3 class="text-bold purple mar-bot-20">
+                Een vernieuwde keuken in 24 uur
+              </h3>
+              <p class="mar-bot-20">
+                Met een keukenrenovatie van Intereno bespaart u kosten. Niet
+                alleen is het voordeliger om uw keuken te laten renoveren in
+                plaats van een gehele nieuwe keuken aan te schaffen, ook houden
+                wij rekening met uw portemonnee. De kosten zijn uiteindelijk
+                uiteraard afhankelijk van <span class="nobr">uw wensen.</span>
+              </p>
+              <button class="def-btn camp-btn info-btn">
+                MEER INFORMATIE
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M1.875 12.0003C1.875 11.8014 1.95402 11.6106 2.09467 11.4699C2.23532 11.3293 2.42609 11.2503 2.625 11.2503H18.5425L12.349 5.16027C12.2071 5.02076 12.1264 4.83061 12.1248 4.63163C12.1231 4.43266 12.2005 4.24116 12.34 4.09927C12.4795 3.95738 12.6697 3.87671 12.8686 3.87503C13.0676 3.87334 13.2591 3.95076 13.401 4.09027L20.8995 11.4643L20.904 11.4688L20.9095 11.4743C20.9796 11.5455 21.0347 11.63 21.0717 11.7229C21.1086 11.8157 21.1267 11.915 21.1247 12.0149C21.1228 12.1149 21.1009 12.2134 21.0603 12.3047C21.0197 12.396 20.9613 12.4783 20.8885 12.5468L13.401 19.9103C13.3308 19.9793 13.2476 20.0339 13.1563 20.0709C13.065 20.1078 12.9673 20.1264 12.8688 20.1256C12.7703 20.1248 12.6729 20.1046 12.5822 20.0661C12.4916 20.0277 12.4093 19.9717 12.3403 19.9015C12.2712 19.8313 12.2166 19.7482 12.1797 19.6568C12.1427 19.5655 12.1241 19.4678 12.1249 19.3693C12.1257 19.2708 12.146 19.1735 12.1844 19.0828C12.2228 18.9921 12.2788 18.9098 12.349 18.8408L18.5425 12.7503H2.625C2.42609 12.7503 2.23532 12.6712 2.09467 12.5306C1.95402 12.3899 1.875 12.1992 1.875 12.0003Z" fill="white"/>
+                    </svg>
+                    
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="section-4">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12">
+              <div class="flex">
+                <h3 class="text-bold purple">
+                  Dé specialist in keukenrenovatie
+                </h3>
+                <div>
+                  <img
+                    src="img/cbw.png"
+                    class="img-responsive right cbw-logo"
+                  />
+                </div>
+              </div>
+              <p class="mar-bot-20">
+                Onze vakkundige monteurs veranderen uw huidige keuken in een
+                keuken van deze tijd. Waar u weer vele jaren plezier van heeft.
+                Via Intereno krijgt u in één dag letterlijk een nieuwe kijk op
+                uw oude keuken.
+              </p>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-sm-8">
+              <ul class="fa-ul">
+                <li>
+                  <span class="fa-li"><i class="fa fa-check purple"></i></span>
+                  <span class="text-bold purple">CBW Erkend</span><br />Wij zijn
+                  CBW erkend met productgarantie
+                </li>
+                <li>
+                  <span class="fa-li"><i class="fa fa-check purple"></i></span>
+                  <span class="text-bold purple">Eigen fabriek in Nederland</span
+                  ><br />Intereno produceert en fabriceert keukenonderdelen in
+                  een eigen fabriek in Nederland.
+                </li>
+                <li>
+                  <span class="fa-li"><i class="fa fa-check purple"></i></span>
+                  <span class="text-bold purple">5 jaar garantie</span><br />Wij
+                  bieden standaard 5 jaar garantie op productie- en
+                  fabricagefouten
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="section-5">
+        <div class="container">
+          <div class="row row-flex">
+            <div class="col-sm-5 col-center">
+              <h3 class="text-bold mar-bot-20 purple">
+                Komt het financieel even niet uit?
+              </h3>
+              <p class="mar-bot-20">
+                Wel een keukenrenovatie, maar even niet het geld? Geen probleem!
+                Intereno helpt u met de financiering van uw renovatie. Voor
+                slechts een klein bedrag per maand kunt u zo toch genieten van
+                een vernieuwde keuken.
+              </p>
+              <button class="def-btn camp-btn info-btn">
+                MEER INFORMATIE
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M1.875 12.0003C1.875 11.8014 1.95402 11.6106 2.09467 11.4699C2.23532 11.3293 2.42609 11.2503 2.625 11.2503H18.5425L12.349 5.16027C12.2071 5.02076 12.1264 4.83061 12.1248 4.63163C12.1231 4.43266 12.2005 4.24116 12.34 4.09927C12.4795 3.95738 12.6697 3.87671 12.8686 3.87503C13.0676 3.87334 13.2591 3.95076 13.401 4.09027L20.8995 11.4643L20.904 11.4688L20.9095 11.4743C20.9796 11.5455 21.0347 11.63 21.0717 11.7229C21.1086 11.8157 21.1267 11.915 21.1247 12.0149C21.1228 12.1149 21.1009 12.2134 21.0603 12.3047C21.0197 12.396 20.9613 12.4783 20.8885 12.5468L13.401 19.9103C13.3308 19.9793 13.2476 20.0339 13.1563 20.0709C13.065 20.1078 12.9673 20.1264 12.8688 20.1256C12.7703 20.1248 12.6729 20.1046 12.5822 20.0661C12.4916 20.0277 12.4093 19.9717 12.3403 19.9015C12.2712 19.8313 12.2166 19.7482 12.1797 19.6568C12.1427 19.5655 12.1241 19.4678 12.1249 19.3693C12.1257 19.2708 12.146 19.1735 12.1844 19.0828C12.2228 18.9921 12.2788 18.9098 12.349 18.8408L18.5425 12.7503H2.625C2.42609 12.7503 2.23532 12.6712 2.09467 12.5306C1.95402 12.3899 1.875 12.1992 1.875 12.0003Z" fill="white"/>
+                    </svg>
+                    
+              </button>
+            </div>
+            <div class="col-sm-6 col-sm-offset-1">
+              <img src="img/vrouw.jpg" class="img-responsive" />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="section-6">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12">
+              <h3 class="text-semi-bold mar-bot-20 purple">
+                Wat zeggen onze tevreden klanten?
+              </h3>
+            </div>
+          </div>
+          <div class="row row-flex">
+            <div class="col-sm-6 hidden-xs col-center">
+              <img
+                src="img/trustpilot-beoordeling.png"
+                class="img-responsive left"
+              />
+            </div>
+
+            <div class="col-sm-6">
+              <div class="slider-holder">
+                <div
+                  id="reviewSlider"
+                  class="carousel slide"
+                  data-ride="carousel"
+                  data-interval="10000"
+                >
+                  <!-- Indicators -->
+                  <ol class="carousel-indicators">
+                    <li
+                      data-target="#reviewSlider"
+                      data-slide-to="0"
+                      class="active"
+                    ></li>
+                    <li data-target="#reviewSlider" data-slide-to="1"></li>
+                    <li data-target="#reviewSlider" data-slide-to="2"></li>
+                  </ol>
+
+                  <!-- Slides -->
+                  <div class="carousel-inner">
+                    <div class="item active">
+                      <div class="review-holder">
+                        <h4 class="text-bold mar-bot-20">
+                          Vinoj Ramdas -
+                          <span class="sterren"
+                            ><i class="fa fa-star"></i><i class="fa fa-star"></i
+                            ><i class="fa fa-star"></i><i class="fa fa-star"></i
+                            ><i class="fa fa-star"></i
+                          ></span>
+                        </h4>
+                        <h4>Zeer snel en netjes alles vernieuwd</h4>
+                        <p>
+                          Zeer snel en netjes alles vernieuwd. Alle oude deuren
+                          en lades meegenomen. Hele vriendelijke meneer en
+                          uiterst professioneel.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="item">
+                      <div class="review-holder">
+                        <h4 class="text-bold mar-bot-20">
+                          L. Geeraets -
+                          <span class="sterren"
+                            ><i class="fa fa-star"></i><i class="fa fa-star"></i
+                            ><i class="fa fa-star"></i><i class="fa fa-star"></i
+                            ><i class="fa fa-star"></i
+                          ></span>
+                        </h4>
+                        <h4>Attent en zorgvuldig</h4>
+                        <p>
+                          Vriendelijke, rustige attente meneer om een dag in
+                          huis te hebben. Gaf goed uitleg en heeft de klus naar
+                          volle tevredenheid geklaard. Blij met oze "nieuwe"
+                          keuken:)
+                        </p>
+                      </div>
+                    </div>
+                    <div class="item">
+                      <div class="review-holder">
+                        <h4 class="text-bold mar-bot-20">
+                          Monique van Leeuwen -
+                          <span class="sterren"
+                            ><i class="fa fa-star"></i><i class="fa fa-star"></i
+                            ><i class="fa fa-star"></i><i class="fa fa-star"></i
+                            ><i class="fa fa-star"></i
+                          ></span>
+                        </h4>
+                        <h4>Wij zijn zeer tevreden over het geleverde werk</h4>
+                        <p>
+                          Wij zijn zeer tevreden over het geleverde werk, een
+                          vakkundige en vriendelijke monteur. Het eindresultaat
+                          is boven veerwachting, we zijn er heel blij mee.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="footer-inner">
+              <div class="row">
+                <div class="col-sm-12 mar-bot-20">
+                  <div class="scroll-top-btn">
+                    <div>
+                        <svg width="28" height="22" viewBox="0 0 28 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M0.224609 16.1433C0.224609 16.3281 0.317578 16.5172 0.498047 16.659C0.858984 16.9426 1.44961 16.9426 1.81055 16.659L14.1645 6.95234L26.3379 16.5172C26.6988 16.8008 27.2895 16.8008 27.6504 16.5172C28.0113 16.2336 28.0113 15.7695 27.6504 15.4859L14.8207 5.40117C14.4598 5.11758 13.8691 5.11758 13.5082 5.40117L0.498047 15.6234C0.312109 15.7695 0.224609 15.9543 0.224609 16.1433Z" fill="white"/>
+                            </svg>
+                            
+                      </svg>
+                    </div>
+                    <h5 class="text-center text-italic">Terug naar boven</h5>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-sm-12">
+                  <p class="text-center">
+                    <a href="#" data-toggle="modal" data-target="#privacy"
+                      >privacyverklaring</a
+                    >
+                    |
+                    <a href="#" onclick="cookiefirst_show_settings();"
+                      >Cookie-settings</a
+                    >
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Form modal -->
+    <div
+      class="modal fade"
+      id="form-modal"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="myModalLabel"
+    >
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button
+              type="button"
+              class="close"
+              id="Form-sluit"
+              data-dismiss="modal"
+              aria-label="Close"
+              style="display: "
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <!-- Vragen -->
+            <div class="vragen-holder">
+              <p
+                class="text-semi-bold text-center"
+                id="vragen-intro"
+                style="display: "
+              >
+                Beantwoord 5 korte vragen en ontvang een gratis prijsindicatie
+                voor <span class="nobr">uw keukenrenovatie.</span>
+              </p>
+
+              <div id="vraag-1">
+                <p class="mar-bot-20 vraag">
+                  Welke vorm heeft uw huidige keuken?
+                </p>
+
+                <div class="antw-btn" data-value="Rechte keuken">
+                  <span class="icon"><i class="fa fa-minus"></i></span> Rechte
+                  keuken
+                </div>
+                <div class="antw-btn" data-value="L-vormig">
+                  <span class="icon"
+                    ><i class="fa fa-check fa-flip-horizontal l-shape"></i
+                  ></span>
+                  L-vormig
+                </div>
+                <div class="antw-btn" data-value="U-vormig">
+                  <span class="icon"><i class="fa fa-union"></i></span>
+                  U-vormig
+                </div>
+                <div class="antw-btn" data-value="Anders">
+                  <span class="icon"><i class="fa fa-question"></i></span>
+                  Anders
+                </div>
+              </div>
+
+              <div id="vraag-2" style="display: none">
+                <p class="mar-bot-20 vraag">
+                  Wilt u ook keukenapparatuur vervangen?
+                </p>
+
+                <div class="antw-btn" data-value="Ja, alles">
+                  <span class="icon"><i class="fa fa-check"></i></span> Ja,
+                  alles
+                </div>
+                <div class="antw-btn" data-value="Ja, maar niet alles">
+                  <span class="icon"><i class="fa fa-check"></i></span> Ja, maar
+                  niet alles
+                </div>
+                <div class="antw-btn" data-value="Weet ik nog niet">
+                  <span class="icon"><i class="fa fa-question"></i></span> Weet
+                  ik nog niet
+                </div>
+                <div class="antw-btn" data-value="Nee">
+                  <span class="icon"><i class="fa fa-times"></i></span> Nee
+                </div>
+              </div>
+
+              <div id="vraag-3" style="display: none">
+                <p class="mar-bot-20 vraag">Wilt u het keukenblad vervangen?</p>
+
+                <div class="antw-btn" data-value="Ja">
+                  <span class="icon"><i class="fa fa-check"></i></span> Ja
+                </div>
+                <div class="antw-btn" data-value="Nee">
+                  <span class="icon"><i class="fa fa-times"></i></span> Nee
+                </div>
+              </div>
+
+              <div id="vraag-4" style="display: none">
+                <p class="mar-bot-20 vraag">
+                  Wanneer wilt u de renovatie laten doen?
+                </p>
+
+                <div class="antw-btn" data-value="Zo snel mogelijk">
+                  <span class="icon"><i class="fa fa-shipping-fast"></i></span>
+                  Zo snel mogelijk
+                </div>
+                <div class="antw-btn" data-value="1-3 maanden">
+                  <span class="icon"><i class="fa fa-calendar-alt"></i></span>
+                  1-3 maanden
+                </div>
+                <div class="antw-btn" data-value="4-6 maanden">
+                  <span class="icon"><i class="fa fa-calendar-alt"></i></span>
+                  4-6 maanden
+                </div>
+                <div class="antw-btn" data-value="Weet ik nog niet">
+                  <span class="icon"><i class="fa fa-question"></i></span> Weet
+                  ik nog niet
+                </div>
+              </div>
+
+              <div id="vraag-5" style="display: none">
+                <p class="mar-bot-20 vraag">Heeft u een koop- of huurhuis?</p>
+
+                <div class="antw-btn" data-value="Koophuis">
+                  <span class="icon"><i class="fa fa-home-lg"></i></span>
+                  Koophuis
+                </div>
+                <div class="antw-btn" data-value="Huurhuis">
+                  <span class="icon"><i class="fa fa-home-lg-alt"></i></span>
+                  Huurhuis
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-xs-offset-3 col-xs-6">
+                  <div class="stappen"></div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Form -->
+            <div class="form-holder" style="display: none">
+              <div class="form-header">
+                <h4 class="text-bold text-center">
+                  Bijna klaar! Naar wie mogen wij de prijsindicatie versturen?
+                </h4>
+                <p class="text-center">
+                  Vul uw gegevens in en u ontvangt een vrijblijvende
+                  prijsindicatie in uw mailbox.
+                </p>
+              </div>
+
+              <div class="form-body">
+                <form
+                  id="form1"
+                  name
+                  method="post"
+                  class="form-horizontal FormFirst bl-form FlowupLabels"
+                  autocomplete="off"
+                >
+                  <fieldset>
+                    <div class="row">
+                      <div class="col-sm-6 form-group">
+                        <div class="fl_wrap">
+                          <label class="fl_label" for="voornaam"
+                            >Voornaam</label
+                          >
+                          <input
+                            id="voornaam"
+                            name="voornaam"
+                            placeholder=""
+                            class="form-control text-capitalize fl_input"
+                            type="text"
+                            value=""
+                          />
+                        </div>
+                      </div>
+
+                      <div class="col-sm-6 form-group">
+                        <div class="fl_wrap">
+                          <label class="fl_label" for="achternaam"
+                            >Achternaam</label
+                          >
+                          <input
+                            id="achternaam"
+                            name="achternaam"
+                            placeholder=""
+                            class="form-control text-capitalize fl_input"
+                            type="text"
+                            value=""
+                          />
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="row">
+                      <div class="col-sm-6 form-group">
+                        <div class="fl_wrap">
+                          <label class="fl_label" for="postcode"
+                            >Postcode</label
+                          >
+                          <input
+                            id="postcode"
+                            name="postcode"
+                            placeholder=""
+                            class="form-control text-capitalize fl_input"
+                            maxlength="6"
+                            type="text"
+                            value=""
+                          />
+                        </div>
+                      </div>
+                      <div class="col-sm-3 form-group">
+                        <div class="fl_wrap">
+                          <label class="fl_label" for="huisnummer"
+                            >Huisnr.</label
+                          >
+                          <input
+                            id="huisnummer"
+                            name="huisnummer"
+                            placeholder=""
+                            class="form-control text-capitalize fl_input"
+                            type="text"
+                            value=""
+                          />
+                        </div>
+                      </div>
+                      <div class="col-sm-3 form-group">
+                        <div class="fl_wrap">
+                          <label class="fl_label" for="toevoeging">Toev.</label>
+                          <input
+                            id="toevoeging"
+                            name="toevoeging"
+                            placeholder=""
+                            class="form-control text-capitalize fl_input"
+                            type="text"
+                            value=""
+                          />
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="row">
+                      <div class="col-sm-12 form-group">
+                        <div class="fl_wrap">
+                          <label class="fl_label" for="email">E-mail</label>
+                          <input
+                            id="email"
+                            name="email"
+                            placeholder=""
+                            class="form-control fl_input"
+                            type="email"
+                            value=""
+                          />
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="row">
+                      <div class="col-sm-12 form-group">
+                        <div class="fl_wrap mar-bot-15">
+                          <label class="fl_label" for="telefoonnummer"
+                            >Telefoonnummer</label
+                          >
+                          <input
+                            name="telefoonnummer"
+                            id="telefoonnummer"
+                            placeholder=""
+                            class="form-control fl_input"
+                            maxlength="10"
+                            type="text"
+                            value=""
+                          />
+                        </div>
+                        <p class="text-light sml">
+                          &#42;Dit mobiele nummer wordt alleen gebruikt wanneer
+                          wij nog extra informatie van u nodig hebben voor de
+                          prijsindicatie.
+                        </p>
+                      </div>
+                    </div>
+
+                    <div class="row">
+                      <div class="col-sm-offset-1 col-sm-10">
+                        <p class="text-light mar-bot-15 sml text-center">
+                          100% gratis &amp; vrijblijvend
+                        </p>
+                        <button
+                          type="submit"
+                          id="Button1"
+                          class="def-btn camp-btn form-btn text-bold wit mar-bot-15"
+                        >
+                          Gratis prijsindicatie
+                          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M1.875 12.0003C1.875 11.8014 1.95402 11.6106 2.09467 11.4699C2.23532 11.3293 2.42609 11.2503 2.625 11.2503H18.5425L12.349 5.16027C12.2071 5.02076 12.1264 4.83061 12.1248 4.63163C12.1231 4.43266 12.2005 4.24116 12.34 4.09927C12.4795 3.95738 12.6697 3.87671 12.8686 3.87503C13.0676 3.87334 13.2591 3.95076 13.401 4.09027L20.8995 11.4643L20.904 11.4688L20.9095 11.4743C20.9796 11.5455 21.0347 11.63 21.0717 11.7229C21.1086 11.8157 21.1267 11.915 21.1247 12.0149C21.1228 12.1149 21.1009 12.2134 21.0603 12.3047C21.0197 12.396 20.9613 12.4783 20.8885 12.5468L13.401 19.9103C13.3308 19.9793 13.2476 20.0339 13.1563 20.0709C13.065 20.1078 12.9673 20.1264 12.8688 20.1256C12.7703 20.1248 12.6729 20.1046 12.5822 20.0661C12.4916 20.0277 12.4093 19.9717 12.3403 19.9015C12.2712 19.8313 12.2166 19.7482 12.1797 19.6568C12.1427 19.5655 12.1241 19.4678 12.1249 19.3693C12.1257 19.2708 12.146 19.1735 12.1844 19.0828C12.2228 18.9921 12.2788 18.9098 12.349 18.8408L18.5425 12.7503H2.625C2.42609 12.7503 2.23532 12.6712 2.09467 12.5306C1.95402 12.3899 1.875 12.1992 1.875 12.0003Z" fill="white"/>
+                            </svg>
+                            
+                            
+                        </button>
+                      </div>
+                    </div>
+
+                    <div class="row">
+                      <div class="col-sm-12">
+                        <p class="text-center grijs sml">
+                          <span class="text-semi-bold"
+                            >Waarom vragen we deze gegevens?</span
+                          ><br />
+                          Met uw informatie gaan wij op zoek naar de beste
+                          oplossing voor uw keuken.
+                          <span id="campaign_question"
+                            >Een adviseur van Intereno mag u eenmalig
+                            telefonisch en/of per e-mail benaderen voor
+                            aanvullende vragen en een toelichting op de
+                            berekening.</span
+                          >
+                          U bent tot niets verplicht en zit nergens aan vast. Uw
+                          gegevens zullen uitsluitend worden gebruikt voor deze
+                          berekening en niet worden gedeeld met anderen.
+                        </p>
+                      </div>
+                    </div>
+                  </fieldset>
+                </form>
+              </div>
+            </div>
+
+            <!-- Bedankt pagina -->
+            <div class="bedankt-pagina" style="display: none">
+              <h4 class="text-bold mar-bot-15 wit">
+                Hartelijk dank voor uw aanvraag!
+              </h4>
+              <p class="wit">
+                Een adviseur van Intereno neemt zo spoedig mogelijk contact met
+                u op voor aanvullende informatie.
+              </p>
+            </div>
+
+            <!-- helaas pagina -->
+            <div class="helaas-pagina" style="display: none">
+              <h4 class="text-bold mar-bot-15 wit">
+                Hartelijk dank voor uw interesse!
+              </h4>
+              <p class="wit">
+                Helaas kunnen wij niets voor u betekenen. Wij zijn niet actief
+                in uw regio.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Helaas -->
+    <div
+      class="modal fade"
+      id="helaas"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="myModalLabel"
+    >
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+            <h4 class="modal-title" id="myModalLabel">Helaas</h4>
+          </div>
+          <div class="modal-body">
+            <p>
+              Bij een huurhuis heeft u schriftelijke toestemming nodig van uw
+              verhuurder. Helaas kunnen wij u nu niet helpen. Bedankt voor uw
+              interesse.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Contact -->
+
+    <!-- Privacyverklaring-->
+    <div
+      class="modal fade"
+      id="privacy"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="myModalLabel"
+    >
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+            <h4 class="modal-title" id="myModalLabel">Privacyverklaring</h4>
+          </div>
+          <div class="modal-body">
+            <div>
+              <p
+                style="
+                  margin-bottom: 20px !important;
+                  font-size: 14px !important;
+                  line-height: 140% !important;
+                "
+              >
+                Voor de persoonsgegevens die in deze campagne worden verzameld
+                zijn van toepassing.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Spelvoorwaarden-->
+    <!--
+ <div class="modal fade" id="spelvoorwaarden" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="myModalLabel">Actievoorwaarden</h4>
+            </div>
+            <div class="modal-body">
+                                
+                <p>Voorwaarden actie</p>
+                <ul>
+                    <li>Deze actie loopt van 1 juni tot 31 juli 2024.</li>
+                    <li>De winnaar wordt in september bekend gemaakt (als alle verkoopafspraken vewerkt zijn).</li>
+                    <li>De Quooker betreft een Combi+ ter waarde van max €1.495,- incl. btw welke wij ook monteren.</li>
+                    <li>Deze actie is alleen geldig bij deze marketingmethode (opt-in formulier) waarin uw gegevens als zodanig automatisch verwerkt zijn.</li>
+                    <li>De winnaar zal onder alle verkochte Quookers, waarin de afspraak gemaakt is in bovenstaande periode, d.m.v. loting bekend gemaakt worden.</li>
+                    <li>Intereno b.v. is gerechtigd de actievoorwaarden tussentijds te wijzigen en behoudt zich het recht ten allen tijde zonder opgave van redenen de actie tussentijds te beëindigen.</li>
+                    <li>Alle deelnemers zijn gebonden aan de bepalingen van deze actievoorwaarden.</li>
+                </ul>
+                
+                <p>Slotbepaling:</p>
+                <ul>
+                    <li>Over deze actie kan op geen enkele andere wijze worden gecorrespondeerd.</li>
+                    <li>Intereno b.v. is gerechtigd inzendingen uit te sluiten van deelname.</li>
+                    <li>Typefouten voorbehouden.</li>
+                </ul>
+                
+            </div>
+        </div>
+    </div>
+</div> 
+-->
+
+    <div class="tracking"></div>
+  </body>
+</html>

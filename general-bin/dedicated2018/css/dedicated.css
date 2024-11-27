@@ -1,0 +1,1013 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,700,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap");
+
+/* margins & paddings*/
+img {
+  margin: 0px auto;
+}
+.img-responsive.left {
+  margin-left: 0px;
+}
+.img-responsive.right {
+  margin-right: 0px;
+}
+
+/* colomun paddings */
+/* use equivalent negative row margin class on the parent row for correct alignment */
+.col-pad-0 {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.col-pad-5 {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.col-pad-10 {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.col-pad-15 {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+/* negative row margins */
+.row-mar-0 {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+.row-mar-5 {
+  margin-left: -5px;
+  margin-right: -5px;
+}
+.row-mar-10 {
+  margin-left: -10px;
+  margin-right: -10px;
+}
+.row-mar-15 {
+  margin-left: -15px;
+  margin-right: -15px;
+}
+
+/* bottom margins */
+.mar-bot-0 {
+  margin-bottom: 0px !important;
+}
+.mar-bot-5 {
+  margin-bottom: 5px !important;
+}
+.mar-bot-10 {
+  margin-bottom: 10px !important;
+}
+.mar-bot-15 {
+  margin-bottom: 15px !important;
+}
+.mar-bot-20 {
+  margin-bottom: 20px !important;
+}
+.mar-bot-25 {
+  margin-bottom: 25px !important;
+}
+.mar-bot-30 {
+  margin-bottom: 30px !important;
+}
+.mar-bot-40 {
+  margin-bottom: 40px !important;
+}
+.mar-bot-50 {
+  margin-bottom: 50px !important;
+}
+.mar-bot-60 {
+  margin-bottom: 60px !important;
+}
+.mar-bot-70 {
+  margin-bottom: 70px !important;
+}
+.mar-bot-80 {
+  margin-bottom: 80px !important;
+}
+.mar-bot-90 {
+  margin-bottom: 90px !important;
+}
+.mar-bot-100 {
+  margin-bottom: 100px !important;
+}
+
+/* Bootstrap adjustments */
+.container {
+  padding-left: 20px !important;
+  padding-right: 20px !important;
+}
+
+.modal-content {
+  font-family: "Open Sans", sans-serif;
+  border-radius: 0px;
+  -webkit-box-shadow: 3px 3px 10px 2px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 3px 3px 10px 2px rgba(0, 0, 0, 0.3);
+  box-shadow: 3px 3px 10px 2px rgba(0, 0, 0, 0.3);
+}
+.modal-header,
+.modal-body {
+  padding: 15px 20px;
+}
+.modal-body {
+  font-size: 12px;
+}
+.modal-body p {
+  font-weight: 400 !important;
+}
+
+/* Onderstaande class kan gebruikt worden om 1 of meer woorden te groeperen om bv te voorkomen dat alleen het laatste woord van een tekst/zin naar de volgende regel valt */
+span.inline {
+  display: inline-block;
+}
+span.nobr {
+  white-space: nowrap;
+}
+
+/* Onderstaande classes kunnen gebruikt worden inplaats van een <br>. Deze zullen op het formaat genoemd in de classnaam omgezet worden in een spatie */
+span.line-break-md,
+span.line-break-sm,
+span.line-break-xs,
+span.line-break-xxs {
+  display: block;
+}
+span.line-break-md:after,
+span.line-break-sm:after,
+span.line-break-xs:after,
+span.line-break-xxs:after {
+  content: none;
+}
+
+/* Gebruik deze class voor elementen die alleen zichtbaar mogen zijn op formaten kleiner dan 480px */
+.visible-xxs-block {
+  display: none !important;
+}
+
+/* #Text */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  line-height: 120%;
+}
+p {
+  font-size: 14px;
+}
+h5 {
+  font-size: 16px;
+}
+
+.text-100,
+.text-thin {
+  font-weight: 100 !important;
+}
+.text-200,
+.text-extra-light {
+  font-weight: 200 !important;
+}
+.text-300,
+.text-light {
+  font-weight: 300 !important;
+}
+.text-400,
+.text-normal {
+  font-weight: 400 !important;
+}
+.text-500,
+.text-medium {
+  font-weight: 500 !important;
+}
+.text-600,
+.text-semi-bold {
+  font-weight: 600 !important;
+}
+.text-700,
+.text-bold {
+  font-weight: 700 !important;
+}
+.text-800,
+.text-extra-bold {
+  font-weight: 800 !important;
+}
+.text-900,
+.text-black {
+  font-weight: 900 !important;
+}
+.text-italic {
+  font-style: italic !important;
+}
+.text-underline {
+  text-decoration: underline !important;
+}
+.text-right {
+  text-align: right !important;
+}
+.text-uppercase {
+  text-transform: uppercase !important;
+}
+
+/* Kleuren */
+.wit {
+  color: #fff;
+}
+.zwart {
+  color: #000;
+}
+
+/* Button */
+.def-btn {
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  width: 100%;
+  padding: 10px;
+  /*
+    outline: 0;
+    outline: none;
+*/
+  border: none;
+
+  font-family: inherit;
+  font-size: 18px;
+  line-height: 100%;
+  text-align: center;
+  vertical-align: middle;
+
+  -webkit-transition: all 250ms ease;
+  -moz-transition: all 250ms ease;
+  -o-transition: all 250ms ease;
+  -ms-transition: all 250ms ease;
+  transition: all 250ms ease;
+
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+  cursor: pointer;
+}
+.def-btn:focus,
+.def-btn:active,
+.def-btn:active:focus,
+.def-btn.active:focus {
+  /*
+    outline: none;
+    outline-style: none;
+*/
+}
+.def-btn:focus {
+  /*
+    outline: thin dotted black;
+    outline-offset: -2px;
+*/
+}
+.def-btn:before,
+.def-btn:after {
+  -webkit-transition: all 200ms ease;
+  -moz-transition: all 200ms ease;
+  -o-transition: all 200ms ease;
+  -ms-transition: all 200ms ease;
+  transition: all 200ms ease;
+}
+
+/*==================================================
+  Form
+==================================================*/
+
+form #errors-holder {
+  margin-bottom: 20px;
+  padding: 10px 15px 8px 15px;
+  border: 3px solid #a94442;
+  /*    border-left-width: 5px;*/
+  /*    border-radius: 10px;*/
+  /*    background-color: #ffecec;*/
+  background-color: #fef3f3;
+}
+
+/*
+form #errors-holder p{
+    margin-bottom: 2px;
+    position: relative;
+    padding-left: 15px;
+    font-size: 14px;
+}
+form #errors-holder p:before{
+    content: "\f00d";
+    font-family: "Font Awesome 5 Pro";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    font-size: 1.2em;
+    color: #a94442;
+}
+form #errors-holder p a{
+    color: #000;
+}
+form #errors-holder p a:hover,
+form #errors-holder p a:focus{
+    color: #a94442;
+}
+*/
+
+/*==================================================
+  FlowupLabels
+==================================================*/
+
+.FlowupLabels .fl_wrap {
+  /* Can change */
+  /*  width: 500px; height: 46px; margin: 12px auto; */
+
+  /* Don't change */
+  display: block;
+  position: relative;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* initial label state */
+.FlowupLabels .fl_label {
+  /*    font-family: 'Source Sans Pro', sans-serif;*/
+  font-size: 15px;
+  font-weight: 400;
+  color: #999999;
+  margin-bottom: 0px; /* override bootstrap css */
+
+  /* Can change */
+  top: 10px;
+  left: 11px;
+
+  /* Don't change */
+  position: absolute;
+  z-index: 3; /* This can be removed but then the labels must be placed after the inputs in the HTML */
+  -webkit-transition: all 0.05s linear;
+  -moz-transition: all 0.05s linear;
+  -transition: all 0.05s linear;
+
+  cursor: text;
+}
+
+.FlowupLabels .fl_input {
+  /* Can change */
+  /* background: none; border: none; border-bottom: 1px solid #555; border-radius: 0; font-size: 16px; line-height: 22px; padding: 20px 0 0 5px; padding-left: 30px; */
+
+  /* Don't change */
+  /*  position: absolute;*/
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  z-index: 2; /* This can be removed but then the labels must be placed after the inputs in the HTML */
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* Focus & populated label styling */
+.FlowupLabels .fl_wrap.focused .fl_label,
+.FlowupLabels .fl_wrap.populated .fl_label,
+/* and graceful degradation */
+.no-js .FlowupLabels .fl_label {
+  /* Can change */
+  top: 3px;
+  font-size: 12px !important;
+  color: #ccc;
+}
+.FlowupLabels .fl_wrap.focused .fl_label {
+  /* Can change */
+  top: 2px;
+  font-size: 13px !important;
+  color: #999;
+}
+
+/* ==================================================
+ Telefoonnummer bevestiging modal
+================================================== */
+
+#telnr-bevestiging,
+#telnr-bevestiging .modal-content {
+  font-family: "Roboto", sans-serif;
+  color: #222;
+}
+#telnr-bevestiging .modal-content {
+  background: none;
+  border: none;
+  border-radius: 3px;
+}
+.telnr-bevestiging-header {
+  padding: 20px 30px;
+  font-size: 18px;
+  border-bottom: solid 1px #e0e0e0;
+  border-bottom: solid 1px rgba(0, 0, 0, 0.2);
+  border-radius: 3px 3px 0 0;
+  background-color: #f9f9f9;
+}
+.telnr-bevestiging-header h1 {
+  font-size: 30px;
+}
+.telnr-bevestiging-header h3 {
+  font-size: 18px;
+}
+.telnr-bevestiging-header h3 span {
+  font-size: 1.6em;
+}
+.telnr-bevestiging-body {
+  padding: 30px;
+  background-color: #fff;
+}
+.telnr-bevestiging-body p {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 150%;
+}
+.telnr-bevestiging-body p:first-child {
+  margin-bottom: 15px;
+}
+.telnr-bevestiging-winnaar {
+  padding: 20px 30px;
+  border-bottom: solid 1px #e0e0e0;
+  border-bottom: solid 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0 0 3px 3px;
+  background-color: #f9f9f9;
+}
+.telnr-bevestiging-winnaar p {
+  font-size: 14px;
+  line-height: 140%;
+}
+.winnaar-naam {
+  margin: 10px auto;
+  min-height: 70px;
+}
+.telnr-bevestiging-footer {
+  padding: 30px;
+  border-top: solid 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0 0 3px 3px;
+
+  background: #555555;
+  background: -moz-linear-gradient(top, #555555 1%, #333333 100%);
+  background: -webkit-linear-gradient(top, #555555 1%, #333333 100%);
+  background: linear-gradient(to bottom, #555555 1%, #333333 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#555555', endColorstr='#333333',GradientType=0 );
+}
+.telnr-bevestiging-footer .tel-col .fl_wrap,
+.telnr-bevestiging-footer .tel-col .fl_nowrap {
+  width: calc(100% - 132px);
+  vertical-align: middle;
+  display: inline-block !important;
+}
+.telnr-bevestiging-footer label {
+  position: absolute;
+  top: -20px;
+  color: #fff;
+}
+.telnr-bevestiging-footer .form-control {
+  height: 48px;
+  font-size: 16px;
+  border-color: rgba(255, 255, 255, 0) !important;
+  border-radius: 3px;
+  -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2);
+}
+.telnr-bevestiging-footer .telnr-bevestiging-btn {
+  margin-top: 0px;
+  width: 100%;
+  padding: 18px 16px;
+  font-size: 16px;
+  font-weight: 700;
+  text-align: left;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  background-color: #83c11f;
+  -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2);
+}
+.telnr-bevestiging-footer .telnr-bevestiging-btn:after {
+  position: absolute;
+  top: 18px;
+  right: 25px;
+  content: "\f054";
+  font-family: "Font Awesome 5 Pro";
+  font-size: 14px;
+}
+.telnr-bevestiging-footer .telnr-bevestiging-btn:hover {
+  background-color: #92cd33;
+}
+.telnr-bevestiging-footer .telnr-bevestiging-btn:hover:after {
+  right: 15px;
+}
+.telnr-bevestiging-footer .telnr-bevestiging-btn:disabled,
+.telnr-bevestiging-footer .telnr-bevestiging-btn[disabled] {
+  background-color: grey;
+  cursor: not-allowed;
+}
+.telnr-bevestiging-footer #telnr-bevestiging-wijzig {
+  margin-top: 0px;
+  margin-left: 15px;
+  width: auto;
+  height: 48px;
+  max-width: 88px;
+  display: inline-block;
+  padding: 16px 13px;
+  font-size: 14px;
+  border-radius: 3px;
+  background-color: rgba(255, 255, 255, 0.2);
+  cursor: pointer;
+}
+.telnr-bevestiging-footer #telnr-bevestiging-wijzig:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+.telnr-bevestiging-footer #telnr-bevestiging-wijzig:after {
+  display: none;
+}
+.telnr-bevestiging-footer #bevestig_countdown_tekst {
+  margin-top: 10px;
+  font-size: 14px !important;
+}
+#telnr-bevestiging-voorwaarden-link {
+  display: inline-block;
+  margin-top: 10px;
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.8);
+  cursor: pointer;
+  -webkit-transition: color 200ms ease;
+  -moz-transition: color 200ms ease;
+  -o-transition: color 200ms ease;
+  -ms-transition: color 200ms ease;
+  transition: color 200ms ease;
+}
+#telnr-bevestiging-voorwaarden-link:hover {
+  color: rgba(255, 255, 255, 1);
+}
+.telnr-bevestiging-voorwaarden {
+  padding: 20px 30px;
+  background-color: #fff;
+}
+.telnr-bevestiging-voorwaarden h4,
+.telnr-bevestiging-voorwaarden h5 {
+  margin-bottom: 15px;
+  line-height: 140%;
+}
+.telnr-bevestiging-voorwaarden p,
+.telnr-bevestiging-voorwaarden ol,
+.telnr-bevestiging-voorwaarden li {
+  font-size: 12px;
+  line-height: 140%;
+}
+.telnr-bevestiging-voorwaarden a {
+  color: #333;
+  text-decoration: underline;
+}
+.telnr-bevestiging-voorwaarden a:hover,
+.telnr-bevestiging-voorwaarden a:focus {
+  color: #000;
+  text-decoration: underline;
+}
+button.telnr-voorwaarden-sluiten {
+  margin-top: 10px;
+  margin-left: 0px;
+  width: auto;
+  padding: 8px 10px;
+  font-size: 14px;
+  font-weight: 400;
+  color: #fff;
+  border-radius: 3px;
+  background-color: #4682b4;
+}
+button.telnr-voorwaarden-sluiten:hover {
+  background-color: #2e76b3;
+}
+button.telnr-voorwaarden-sluiten:after {
+  display: none;
+}
+
+/* Tel nr bevestigings modal V3 */
+.telnr-bevestiging-v3 .modal-content {
+  font-family: "Open Sans", sans-serif !important;
+  color: #222;
+  border: none;
+  background: #fff !important;
+}
+.telnr-bevestiging-v3 .modal-header {
+  padding: 25px 10px !important;
+  border: none !important;
+  background-color: #14a69b !important;
+}
+
+/* Body */
+.telnr-bevestiging-v3 .modal-body {
+  padding: 25px !important;
+  border: none !important;
+}
+.telnr-bevestiging-v3 .bolcom-logo {
+  margin: -10px -3px 0 2px;
+}
+.telnr-bevestiging-v3 h4 {
+  font-size: 20px !important;
+  color: #222;
+}
+.telnr-bevestiging-v3 p {
+  font-size: 16px !important;
+  color: #222;
+  line-height: 160% !important;
+}
+
+/* Form */
+.telnr-bevestiging-v3 .telnr-v3-form-holder {
+  margin: 15px auto 20px;
+  width: 380px;
+  max-width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #555;
+}
+.telnr-bevestiging-v3 label {
+  position: absolute;
+  top: -20px;
+  color: #fff;
+}
+.telnr-bevestiging-v3 .form-control {
+  height: 48px;
+  padding: 6px 12px 6px 10px;
+  font-size: 16px;
+  border-color: rgba(255, 255, 255, 0) !important;
+  border-radius: 3px;
+  -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2);
+}
+.telnr-bevestiging-v3 .form-control.fl_input {
+  padding: 18px 12px 4px 10px;
+}
+.telnr-bevestiging-v3 .FlowupLabels .fl_label {
+  top: 12px;
+  left: 11px;
+  font-size: 16px;
+  font-weight: 400;
+  color: #999;
+}
+.telnr-bevestiging-v3 .FlowupLabels .fl_wrap.focused .fl_label,
+.telnr-bevestiging-v3 .FlowupLabels .fl_wrap.populated .fl_label,
+.telnr-bevestiging-v3 .no-js .FlowupLabels .fl_label {
+  top: 2px;
+  font-size: 13px !important;
+  color: #999;
+}
+.telnr-bevestiging-v3 .FlowupLabels .fl_wrap.focused .fl_label {
+  top: 2px;
+  font-size: 13px !important;
+  color: #666;
+}
+.telnr-bevestiging-v3 i.form-control-feedback.glyphicon.glyphicon-refresh,
+.telnr-bevestiging-v3 i.form-control-feedback.glyphicon.glyphicon-remove,
+.telnr-bevestiging-v3 i.form-control-feedback.glyphicon.glyphicon-ok {
+  right: 5px !important;
+  top: 8px !important;
+  transform: translateY(0);
+}
+.telnr-bevestiging-v3 .telnr-v3-bevestiging-btn {
+  margin-top: 0px;
+  width: 100%;
+  padding: 16px 10px;
+  font-size: 16px;
+  font-weight: 600;
+  text-align: left;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  background-color: #ff7700;
+  -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2);
+}
+.telnr-bevestiging-v3 .telnr-v3-bevestiging-btn:after {
+  position: absolute;
+  top: 18px;
+  top: calc(50% - 8px);
+  right: 25px;
+  content: "\f054";
+  font-family: "Font Awesome 5 Pro";
+  font-size: 14px;
+}
+.telnr-bevestiging-v3 .telnr-v3-bevestiging-btn:hover {
+  background-color: #fe8a24;
+}
+.telnr-bevestiging-v3 .telnr-v3-bevestiging-btn:hover:after {
+  right: 15px;
+}
+.telnr-bevestiging-v3 .telnr-v3-bevestiging-btn:disabled,
+.telnr-bevestiging-v3 .telnr-v3-bevestiging-btn[disabled] {
+  background-color: grey;
+  cursor: not-allowed;
+}
+
+/* Footers */
+.telnr-bevestiging-v3 .modal-footer {
+  padding: 10px 25px;
+  background-color: #f9f9f9;
+}
+.telnr-bevestiging-v3 .modal-footer .fa-chevron-down {
+  -webkit-transition: transform 100ms ease;
+  -moz-transition: transform 100ms ease;
+  -o-transition: transform 100ms ease;
+  -ms-transition: transform 100ms ease;
+  transition: transform 100ms ease;
+}
+.telnr-bevestiging-v3 .modal-footer .fa-chevron-down.up {
+  transform: rotate(180deg);
+}
+
+/* Winnaars */
+.telnr-bevestiging-v3 #telnr-v3-bevestiging-winnaars-link span {
+  cursor: pointer;
+  -webkit-transition: color 150ms ease;
+  -moz-transition: color 150ms ease;
+  -o-transition: color 150ms ease;
+  -ms-transition: color 150ms ease;
+  transition: color 150ms ease;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.telnr-bevestiging-v3 #telnr-v3-bevestiging-winnaars-link span:hover {
+  color: #14a69b;
+}
+.telnr-bevestiging-v3 .telnr-v3-bevestiging-winnaars {
+  padding: 0px 25px;
+  border: none;
+  border-radius: 0;
+  background-color: #f9f9f9;
+}
+.telnr-bevestiging-v3 .telnr-v3-bevestiging-winnaars p {
+  font-size: 14px !important;
+  line-height: 140% !important;
+}
+.telnr-bevestiging-v3 .telnr-v3-winnaar-img {
+  width: 180px;
+  max-width: 100%;
+  border-radius: 50%;
+}
+.telnr-bevestiging-v3 .telnr-v3-winnaar-naam {
+  margin: 5px auto 10px;
+  min-height: 38px;
+}
+
+.telnr-bevestiging-v3 #telnr-v3-bevestiging-voorwaarden-link {
+  display: block;
+  margin-top: 0px;
+  font-size: 10px !important;
+  line-height: 120% !important;
+  text-transform: uppercase;
+  color: #222;
+  cursor: default;
+  -webkit-transition: color 150ms ease;
+  -moz-transition: color 150ms ease;
+  -o-transition: color 150ms ease;
+  -ms-transition: color 150ms ease;
+  transition: color 150ms ease;
+}
+.telnr-bevestiging-v3 #telnr-v3-bevestiging-voorwaarden-link span {
+  cursor: pointer;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.telnr-bevestiging-v3 #telnr-v3-bevestiging-voorwaarden-link span:hover {
+  color: #14a69b;
+}
+.telnr-bevestiging-v3 .modal-footer.telnr-v3-spelvoorwaarden {
+  padding: 5px 25px;
+  background-color: #efefef;
+}
+
+.telnr-bevestiging-v3 .telnr-v3-bevestiging-voorwaarden {
+  padding: 20px 30px;
+  background-color: #fff;
+}
+.telnr-bevestiging-v3 .telnr-v3-bevestiging-voorwaarden h4,
+.telnr-bevestiging-v3 .telnr-v3-bevestiging-voorwaarden h5 {
+  margin-bottom: 15px;
+  line-height: 140%;
+}
+.telnr-bevestiging-v3 .telnr-v3-bevestiging-voorwaarden p,
+.telnr-bevestiging-v3 .telnr-v3-bevestiging-voorwaarden ol,
+.telnr-bevestiging-v3 .telnr-v3-bevestiging-voorwaarden li {
+  font-size: 12px !important;
+  line-height: 140%;
+}
+.telnr-bevestiging-v3 .telnr-v3-bevestiging-voorwaarden a {
+  color: #333;
+  text-decoration: underline;
+}
+.telnr-bevestiging-v3 .telnr-v3-bevestiging-voorwaarden a:hover,
+.telnr-bevestiging-v3 .telnr-v3-bevestiging-voorwaarden a:focus {
+  color: #000;
+  text-decoration: underline;
+}
+.telnr-bevestiging-v3 button.telnr-v3-voorwaarden-sluiten {
+  margin-top: 10px;
+  margin-left: 0px;
+  width: auto;
+  padding: 8px 10px;
+  font-size: 14px;
+  font-weight: 400;
+  color: #fff;
+  border-radius: 3px;
+  background-color: #14a69b;
+}
+.telnr-bevestiging-v3 button.telnr-v3-voorwaarden-sluiten:hover {
+  background-color: #25bdb2;
+}
+.telnr-bevestiging-v3 button.telnr-v3-voorwaarden-sluiten:after {
+  display: none;
+}
+
+/* Actie Bol.com */
+.bol-com-blauw {
+  color: #0483c6;
+}
+/*
+.bol-com-footer{
+    background-color: #0483c6;
+}
+*/
+
+/*==================================================
+  Media Queries
+==================================================*/
+
+@media only screen and (max-width: 1199px) {
+  /* Change the line-break into a space */
+  span.line-break-md {
+    display: inline;
+  }
+  span.line-break-md:after {
+    content: " ";
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  /* Change the line-break into a space */
+  span.line-break-sm {
+    display: inline;
+  }
+  span.line-break-sm:after {
+    content: " ";
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  /* Telefoonnummer bevestiging modal */
+  .telnr-bevestiging-header,
+  .telnr-bevestiging-body,
+  .telnr-bevestiging-footer {
+    padding: 20px;
+  }
+  .telnr-bevestiging-header h1 {
+    font-size: 28px;
+  }
+  .telnr-bevestiging-header h3 {
+    font-size: 16px;
+  }
+  .telnr-bevestiging-img {
+    margin-top: 15px;
+    margin-left: 0px;
+    margin-right: auto;
+  }
+  .telnr-bevestiging-footer .tel-col {
+    width: 413px;
+    max-width: 100%;
+  }
+  .telnr-bevestiging-footer .tel-col .fl_wrap,
+  .telnr-bevestiging-footer .tel-col .fl_nowrap {
+    width: 100%;
+  }
+  .telnr-bevestiging-footer .telnr-bevestiging-btn {
+    margin: 0 auto 0 0;
+    width: 403px;
+  }
+
+  /* Change the line-break into a space */
+  span.line-break-xs {
+    display: inline;
+  }
+  span.line-break-xs:after {
+    content: " ";
+  }
+}
+
+@media only screen and (max-width: 479px) {
+  /* Telefoonnummer bevestiging modal */
+  .telnr-bevestiging-header,
+  .telnr-bevestiging-body,
+  .telnr-bevestiging-footer {
+    padding: 15px;
+  }
+  .telnr-bevestiging-header h1 {
+    font-size: 18px;
+  }
+  .telnr-bevestiging-header h3,
+  .telnr-bevestiging-header h3 span {
+    font-size: 14px;
+  }
+  .telnr-bevestiging-body p {
+    font-size: 15px;
+  }
+  .telnr-bevestiging-img {
+    margin-top: 10px;
+    width: 175px;
+  }
+  .telnr-bevestiging-footer .tel-col {
+    width: 278px;
+    width: 100%;
+  }
+  .telnr-bevestiging-footer .telnr-bevestiging-btn {
+    width: 268px;
+    width: 100%;
+    padding: 18px 10px;
+    font-size: 15px;
+    text-align: center;
+  }
+  .telnr-bevestiging-footer .telnr-bevestiging-btn:after {
+    display: none;
+  }
+
+  /* Tel nr bevestigings modal V3 */
+  .telnr-bevestiging-v3 .modal-header {
+    padding: 15px 10px !important;
+  }
+  .telnr-bevestiging-v3 .modal-header h3 {
+    font-size: 20px;
+  }
+  .telnr-bevestiging-v3 .modal-body {
+    padding: 15px 10px !important;
+    border: none !important;
+  }
+  .telnr-bevestiging-v3 h4 {
+    font-size: 18px !important;
+  }
+  .telnr-bevestiging-v3 p {
+    font-size: 14px !important;
+  }
+  .telnr-bevestiging-v3 .telnr-v3-form-holder {
+    margin: 15px auto;
+  }
+  .telnr-bevestiging-v3 .telnr-v3-bevestiging-btn:after {
+    right: 15px;
+  }
+  .telnr-bevestiging-v3 .telnr-v3-bevestiging-btn:hover:after {
+    right: 10px;
+  }
+  .telnr-bevestiging-v3 .telnr-v3-bevestiging-winnaars {
+    padding: 0px 10px;
+  }
+  .telnr-bevestiging-v3 .telnr-v3-bevestiging-voorwaarden {
+    padding: 15px 10px;
+  }
+
+  /* Change the line-break into a space */
+  span.line-break-xxs {
+    display: inline;
+  }
+  span.line-break-xxs:after {
+    content: " ";
+  }
+
+  /* Bootstrap adjustments */
+  .container {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+  }
+  .col-pad-15 {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .row-mar-15 {
+    margin-left: -10px;
+    margin-right: -10px;
+  }
+  .hidden-xxs {
+    display: none !important;
+  }
+  .visible-xxs-block {
+    display: block !important;
+  }
+}
